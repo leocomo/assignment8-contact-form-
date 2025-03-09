@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Information</title>
+</head>
+<body>
+
+    <h2>General Information</h2>
+    <form action="/general-info" method="POST">
+        <label for="info-name">Full Name</label>
+        <input type="text" id="info-name" name="full-name" required>
+
+        <label for="info-age">Age</label>
+        <input type="number" id="info-age" name="age" required>
+
+        <label for="info-gender">Gender</label>
+        <select id="info-gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <button type="submit"><a href="contactform.html">Submit Information</a></button>
+    </form>
+
+</body>
+</html>
